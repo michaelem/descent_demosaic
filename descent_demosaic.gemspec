@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Michael Emhofer"]
   spec.email         = ["michael@emhofer.net"]
 
-  spec.summary       = "A gem that can be used to demosaic images from the Mars 2020 Descent-stage \"down look\" camera."
+  spec.summary       = "A gem that can be used to demosaic images from the Mars 2020 Descent-stage down look camera."
   spec.homepage      = "https://github.com/michaelem/descent_demosaic"
-  spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
+  spec.required_ruby_version = Gem::Requirement.new(">= 2.4.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/michaelem/descent_demosaic"
