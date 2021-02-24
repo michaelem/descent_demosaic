@@ -24,6 +24,27 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+### Input images
+
+The raw images uploaded by nasa seem tho have the following filter pattern:
+```
+  0 1 2 3
+
+0 R G R G
+
+1 G B G B
+
+2 R G R G
+
+3 G B G B
+```
+
+Thus we can assume:
+Col even, row even: This pixel contains information for red
+Col even, row uneven: This pixel contains information for green
+Col uneven, row even: This pixel contains information for green
+Col uneven, row uneven: This pixel contains information for blue
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
